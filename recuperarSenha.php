@@ -34,7 +34,7 @@ if(isset($_POST[btnSubmit])){
     $mailCript = base64_encode($email);
     require_once('enviarEmail.php');
 
-    $mensagem = 'Você está recebendo esse e-mail para redefinição de senha no site dos Italianos em itu. Clique no link abaixo para redefini-la. </br><a href="http://localhost/logtop/refeinirSenha.php">Redefina sua senha</a>'
+    $mensagem =" Você está recebendo esse e-mail para redefinição de senha no site dos Italianos em itu. Clique no link abaixo para redefini-la. </br><a href='http://localhost/logtop/refeinirSenha.php?conta={$mailCript}''>Redefina sua senha</a>"
 
     enviarEmail($email, 'Prezado', 'Redefinição de senha', $mensagem);
 }
