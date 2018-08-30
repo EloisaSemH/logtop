@@ -44,6 +44,9 @@ if ($_SESSION['logado'] == 1) {
                         <div class="form-row justify-content-center">
                             <div class="form-group col-md-3 text-center">
                                 <a href="cadastrar.php" class="btn btn-link">Cadastre-se</a>
+                                <div class="form-group col-md-3 text-center">
+                                    <a href="recuperarsenha.php" class="btn btn-link">Esqueceu a senha? Recupere-a!</a>
+                                </div>
                             </div>
                         </div>
                     </form>
