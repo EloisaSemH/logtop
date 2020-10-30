@@ -4,7 +4,7 @@
 function enviarEmail($email, $nome, $assunto, $mensagem) {
 
     $servidor = "";
-    $porta = ;
+    $porta = '';
     $usuarioServidor = "";
     $senhaServidor = "";
 

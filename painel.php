@@ -16,7 +16,7 @@ if ($_SESSION['logado'] != 1) {
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     </head>
-    <body>
+    <body class="bg-dark text-dark">
         <div class="container mt-4">
             <div class="card">
                 <div class="card-body text-justify">

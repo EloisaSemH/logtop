@@ -4,7 +4,9 @@ function validarSenha(senha1, senha2, campo){
     senhaSecundaria = document.getElementById(senha2).value;
     if(senhaPrimaria == senhaSecundaria){
         resultado.innerHTML = "Senhas Iguais";
+        resultado.className = 'text-success';
     }else{
         resultado.innerHTML = "Senhas diferentes";
+        resultado.className = 'text-danger';
     }
 }
